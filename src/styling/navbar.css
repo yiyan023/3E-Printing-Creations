@@ -29,5 +29,14 @@
 }
 
 .navbar-toggler-icon {
-	color:  white;
+	width: 24px;
+	height: 17px;
+	background-image: none;
+	transition: all 300ms linear;
+	position: fixed;
+	right: 60px;
+  }
+
+.navbar-toggler-icon:before, navbar-toggler-icon:after {
+	background-color: white;
 }

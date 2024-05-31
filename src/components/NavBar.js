@@ -7,7 +7,6 @@ import Logo from '../assets/other/3e-logo.png'
 const NavBar = () => {
 	const [activeLink, setActiveLink] = useState("home");
 	const navigate = useNavigate();
-	const [dropdown, setDropdown] = useState(false);
 
 	const onUpdateActiveLink = (value) => {
         setActiveLink(value);
@@ -19,9 +18,7 @@ const NavBar = () => {
 				<Navbar.Brand href="/">
 					<img src={Logo}/>
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav">
-					<span className='navbar-toggler-icon' id="dropdown-icon"></span>
-				</Navbar.Toggle>
+				<Navbar.Toggle />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className='nav-bar-links'>
 						<Nav.Link to="/about" className={activeLink === 'about' ? "active navbar-link" : "navbar-link"} onClick={() => {onUpdateActiveLink('about'); navigate('/about')}}>About</Nav.Link>
