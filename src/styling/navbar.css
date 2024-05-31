@@ -1,0 +1,33 @@
+.nav-bar {
+	padding: 30px;
+	background-color: black;
+	
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-bar .navbar-toggler {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.nav-bar .navbar-link {
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 15px;
+	font-family: 'Poppins'
+}
+
+.nav-bar .navbar-brand img {
+	height: 75px;
+}
+
+.navbar-toggler-icon {
+	color:  white;
+}

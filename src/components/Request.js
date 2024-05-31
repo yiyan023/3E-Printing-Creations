@@ -1,8 +1,14 @@
 import React from 'react'
+import NavBar from './NavBar'
+import Footer from './Footer'
 
 const Request = () => {
   return (
-	<div>Request</div>
+	<div className='request'>
+		<NavBar />
+		Request
+		<Footer />
+	</div>
   )
 }
 
