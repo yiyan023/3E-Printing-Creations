@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
-import Banner from './Home /Banner'
-import Favourite from './Home /Favourite'
+import Banner from './Home/Banner'
+import Favourite from './Home/Favourite'
 import Footer from './Footer'
 import '../styling/home.css'
 
