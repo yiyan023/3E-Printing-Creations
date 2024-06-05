@@ -1,0 +1,17 @@
+.banner {
+	padding: 400px 200px 300px 200px;
+	background-image: url('../../assets/other/3d-printer.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner h2 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Montserrat';
+}

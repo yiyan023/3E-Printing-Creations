@@ -2,7 +2,9 @@ import React from 'react'
 
 const Favourite = () => {
   return (
-	<div>Favourite</div>
+	<div className='favourites'>
+		<h2>Fan favourites</h2>
+	</div>
   )
 }
 
