@@ -1,0 +1,34 @@
+.favourites {
+	padding: 100px;
+	background-color: #7ccccc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.favourites h2 {
+	font-family: 'Montserrat';
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.favourites h3 {
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.favourites p {
+	font-family: 'Poppins';
+	text-align: center;
+}
+
+.favourites img {
+	max-width: 100%
+}
+
+.favourites .intro-line {
+	margin-bottom: 50px;
+}
