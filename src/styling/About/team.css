@@ -1,0 +1,35 @@
+.team {
+	background-color: #7ccccc;
+	padding: 300px 0px 100px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.team h2 {
+	font-family: 'Montserrat';
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.team h3 {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+.team h4 {
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+.team img {
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.person {
+	margin: 20px;
+}

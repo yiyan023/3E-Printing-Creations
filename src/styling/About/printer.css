@@ -1,0 +1,21 @@
+.printer {
+	background-color: #7ccccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.printer h2 {
+	margin-bottom: 75px;
+	text-align: center;
+	font-family: 'Montserrat';
+}
+
+.printer img {
+	max-width: 100%;
+}
+
+.printer-section {
+	margin: 20px
+}
