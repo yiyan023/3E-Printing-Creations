@@ -11,7 +11,7 @@ const Team = () => {
 		<h2><strong>Meet the Team</strong></h2>
 		<Container>
 			<Row className="person justify-content-center align-items-center">
-				<Col xl={5} md={8} xs={8}>
+				<Col xl={5} md={8} xs={8} >
 					<img src={Eddy} alt="Edward Wang"/>
 					<h3>Edward Wang</h3>
 					<h4>Founder & Director</h4>

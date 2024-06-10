@@ -7,15 +7,42 @@
 }
 
 .printer h2 {
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-family: 'Montserrat';
 }
 
 .printer img {
 	max-width: 100%;
+	border-radius: 0.5rem;
 }
 
-.printer-section {
+.printer-section-one, .printer-section-two {
 	margin: 20px
 }
+
+.printer-image, .printer-description {
+	margin: 10px;
+}
+
+@media (max-width: 1199px) {
+	.printer h3 {
+		text-align: center;
+	}
+
+	.printer p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	.printer h3 {
+		text-align: start;
+		margin-top: 20px;;
+	}
+
+	.printer p {
+		text-align: start;
+	}
+}
+

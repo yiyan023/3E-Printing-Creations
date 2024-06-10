@@ -28,6 +28,7 @@
 .team img {
 	max-width: 100%;
 	margin-bottom: 30px;
+	border-radius: 0.5rem;
 }
 
 .person {
