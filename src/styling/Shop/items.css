@@ -1,0 +1,63 @@
+.items {
+	padding: 300px 100px 200px 100px;
+}
+
+.items h2 {
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.items h3 {
+	font-size: 20px;
+	font-family: 'Montserrat';
+}
+
+.items p {
+	font-family: 'Poppins';
+}
+
+.items .item-row {
+	margin: 20px 10px 20px 10px;
+}
+
+.items .image-overlap {
+	position: absolute;
+	padding: 15px;
+	background-color: white;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	color: transparent;
+}
+
+.items img {
+	transition: transform 0.3s ease; 
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
+.items .image-overlap:hover {
+	color: black;
+	background-color: rgba(123, 204, 204, 0.50);
+}
+
+.items .image-container:hover img {
+	transform: scale(1.2);
+}
+
+.items .item {
+	display: flex;
+	justify-content: center;
+}
+
+.items .image-container {
+	position: relative;
+	overflow: hidden;
+}
+
