@@ -1,5 +1,5 @@
 .items {
-	padding: 300px 100px 200px 100px;
+	padding: 300px 100px 100px 100px;
 }
 
 .items h2 {
@@ -44,7 +44,7 @@
 
 .items .image-overlap:hover {
 	color: black;
-	background-color: rgba(123, 204, 204, 0.50);
+	background-color: rgba(123, 204, 204, 0.65);
 }
 
 .items .image-container:hover img {
@@ -60,4 +60,35 @@
 	position: relative;
 	overflow: hidden;
 }
+
+.pop-up {
+	position: fixed;
+	z-index: 20;
+	top: 35%;
+	left: 25%;
+	height: 50%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.x-button {
+	position: absolute;
+	top: 1%;
+	right: 0%;
+	border: none;
+	background-color: transparent;
+}
+
+.item-button {
+	border: none;
+	background-color: transparent;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+
 

@@ -1,0 +1,50 @@
+.item-pop-up {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 30px;
+	position: relative
+}
+
+.item-pop-up h3 {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.item-pop-up p {
+	font-family: 'Poppins';
+	text-align: center;
+}
+
+.item-pop-up .cart-button {
+	background-color: #7ccccc;
+	padding: 10px;
+	border-radius: 0.5rem;
+	min-width: 150px
+}
+
+.item-pop-up input {
+	font-family: 'Poppins';
+	width: 100%;
+}
+
+.item-pop-up select {
+	padding: 5px;
+	width: 100%;
+}
+
+.item-form {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.cart-button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
