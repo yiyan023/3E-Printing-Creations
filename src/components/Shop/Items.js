@@ -1,6 +1,6 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { X } from 'react-bootstrap-icons'
+import { ItemContextProvider, useItemContext } from './OpenLink';
 
 import Shark from './items/Shark'
 import '../../styling/Shop/items.css'
@@ -27,10 +27,10 @@ import Vase from '../../assets/pieces/spiral-vase.jpeg'
 import HappyPot from '../../assets/pieces/happy-pot.jpeg'
 
 const Items = () => {
-	const [openLink, setOpenLink] = useState('');
+	const { openLink, setOpenLink } = useItemContext();
 
 	return (
-		<div className='items'>
+			<div className='items'>
 			<h2><strong>Our Shop</strong></h2>
 			<Container>
 				<Row className='item-row align-items-center justify-content-center'>
@@ -231,4 +231,10 @@ const Items = () => {
 	)
 }
 
-export default Items
+const ItemsWithProvider = () => (
+	<ItemContextProvider>
+	  <Items />
+	</ItemContextProvider>
+  );
+  
+  export default ItemsWithProvider;
