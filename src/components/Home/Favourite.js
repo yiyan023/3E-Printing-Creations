@@ -15,18 +15,18 @@ const Favourite = () => {
 		<Container >
 			<Row className='align-items-center justify-content-center'>
 				<Col xl={3} md= {6} xs={8} className='m-2'>
-					<img src={GlassesHolder} />
+					<img src={GlassesHolder} alt="Sir Glasses Holder"/>
 					<h3><b>Sir Glasses Holder</b></h3>
 					<p>$5.00</p>
 				</Col>
 				<Col xl={3} md= {6} xs={8} className='m-2'>
-					<img src={Octopus} />
+					<img src={Octopus} alt="Octopus"/>
 					<h3><b>Octopus</b></h3>
 					<p>$6.00</p>
 				</Col>
 				<Col xl={3} md= {6} xs={8} className='m-2'>
-					<img src={Trex} />
-					<h3><b>T-Rex</b></h3>
+					<img src={Trex} alt="T-rex"/>
+					<h3><b>T-rex</b></h3>
 					<p>$10.00</p>
 				</Col>
 			</Row>

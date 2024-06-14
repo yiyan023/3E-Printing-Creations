@@ -1,11 +1,11 @@
 import {React } from 'react'
 import { useItemContext } from '../OpenLink';
 import { Col, Container, Row } from 'react-bootstrap'
-import SharkPic from '../../../assets/pieces/shark.jpeg'
+import TrexPic from '../../../assets/pieces/trex.png'
 import { X } from 'react-bootstrap-icons'
 import '../../../styling/Shop/item-pop-up.css'
 
-const Shark = () => {
+const TrexSkull = () => {
 	const { setOpenLink } = useItemContext();
 
 	return (
@@ -14,14 +14,14 @@ const Shark = () => {
 			<Container>
 				<Row className='align-items-center justify-content-center'>
 					<Col xl={6} md={6} xs={7}>
-						<img src={SharkPic} alt="Shark"/>
+						<img src={TrexPic} alt="Shark"/>
 					</Col>
 					<Col xl={6} md={6} xs={7}>
 							<button className='x-button'>
 								<X size={25} onClick={()=>{setOpenLink('')}}/>
 							</button>
-						<h3><b>Shark (Articulated)</b></h3>
-						<p><i>$6.00</i></p>	
+						<h3><b>T-rex Skull (With Pedestal)</b></h3>
+						<p><i>$10.00</i></p>	
 						<Container>
 							<Row className='align-items-center justify-content-center'>
 								<Col xl={5} md={10} xs={12} className='item-form'>
@@ -56,4 +56,4 @@ const Shark = () => {
 	)
 }
 
-export default Shark
+export default TrexSkull

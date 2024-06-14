@@ -6,7 +6,7 @@ import Shark from './items/Shark'
 import '../../styling/Shop/items.css'
 
 import SharkPic from '../../assets/pieces/shark.jpeg'
-import Trex from '../../assets/pieces/trex.png'
+import TrexPic from '../../assets/pieces/trex.png'
 import Eiffel from '../../assets/pieces/eiffel-tower.jpeg'
 import Dragon from '../../assets/pieces/dragon.jpeg'
 import Dino from '../../assets/pieces/dino.jpeg'
@@ -25,6 +25,7 @@ import Owl from '../../assets/pieces/owl.jpeg'
 import SkullBowl from '../../assets/pieces/skull-bowl.jpeg'
 import Vase from '../../assets/pieces/spiral-vase.jpeg'
 import HappyPot from '../../assets/pieces/happy-pot.jpeg'
+import TrexSkull from './items/TrexSkull';
 
 const Items = () => {
 	const { openLink, setOpenLink } = useItemContext();
@@ -47,13 +48,16 @@ const Items = () => {
 						{openLink === 'shark' && <Shark />}
 					</Col>
 					<Col className='item' xs={8} md={8} xl={3}>
-						<div className='image-container'>
-							<img src={Trex} alt="Trex"/>
-							<div className='image-overlap'>
-								<h3><b>T-rex Skull (With Pedestal)</b></h3>
-								<p><i>$10.00</i></p>
+						<button onClick={() => {setOpenLink('trex-skull')}} className='item-button'>
+							<div className='image-container'>
+								<img src={TrexPic} alt="Trex"/>
+								<div className='image-overlap'>
+									<h3><b>T-rex Skull (With Pedestal)</b></h3>
+									<p><i>$10.00</i></p>
+								</div>
 							</div>
-						</div>
+						</button>
+						{openLink === 'trex-skull' && <TrexSkull />}
 					</Col>
 					<Col className='item' xs={8} md={8} xl={3}>
 						<div className='image-container'>
